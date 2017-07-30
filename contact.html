@@ -2,12 +2,11 @@
 <html>
 <head>
 	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-     <h1>Sam Sadler</h1>
-  
-       <table>
+
+       <table class="key">
           <tr>
              <td> About </td>
              <td> Portfolio </td>
@@ -15,30 +14,37 @@
           </tr>
        </table>
 
+  <header>
+
+     <h1 class="cnthdr">Sam Sadler</h1>  
+
   </header>   
 
-  <div>
+  <div class="bkgrnd">
   <section> 
 
       <h2>Contact</h2>
 
+      <div class="container">
+
        <form action"/action_page.php">
          Name<br>
-         <input type="text" name="firstname" value="">
+         <input type="text" name="firstname" value="" class="inputbox">
          <br>
          Email<br>
-         <input type="text" name"lastname" value="">
+         <input type="text" name"lastname" value="" class="inputbox">
          <br>
-         <!--Need to make the Message box bigger-->
          Message<br>
-         <input type="text">
+         <input type="text" class="msgbox">
          <br><br>
          <input type="submit" value="Submit">
-       </form>  
+       </form>
+
+      </div>
 
   </section>
 
-   <section>
+   <div class="cnct">
         <h2>Connect with Me</h2>
        
         <a href="https://github.com/ssadler9" target="_blank"><img src="assets/images/Github.png" alt="GitHub" height="50px" width="50px">
@@ -47,15 +53,15 @@
         </a>
         <a href="https://stackexchange.com/users/11078044/sam-s" target="_blank"><img src="assets/images/stackoverflow.png" alt="StackOverFlow" height="50px" width="50px">
         </a>
-   </section>
-
-   <footer>
+   </div>
+ </div>  
+   <div class="footer"> 
+   
        <p>
           Copyright 2016 Sam Sadler
        </p>
-   </footer>
 
-  </div>
+   </div>
 
 </body>
 </html>

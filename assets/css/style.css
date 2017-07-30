@@ -20,6 +20,28 @@
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.cnct {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	font-family: 'Arial', 'Helvetica Nuee', Helvetica, sans-serif;
+	float: right;
+	width: 300px;
+	padding-right: 0;
+}
+
+.cnthdr {
+	background-color: #4aaaa5;
+	width: 233px;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	margin-bottom: 0;
+	margin-left: 50px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .bkgrnd {
 	background-image: url(../images/concrete-texture.png);
 	width: 960px;
@@ -42,15 +64,24 @@
 	float: left; 
 }
 
-.cnct {
+.wrapper {
 	background-color: #ffffff;
 	border-color: #dddddd;
 	border-style: solid;
-	border-width: 1px;
+	width: 600px;
+	margin: 0 auto 0 auto;
 	font-family: 'Arial', 'Helvetica Nuee', Helvetica, sans-serif;
-	float: right;
-	width: 300px;
-	padding-right: 0;
+	padding-top: 20px;
+	float: left; 
+}
+
+.inputbox {
+    width: 300px;
+}
+
+.msgbox {
+    width: 300px;
+    height: 300px;
 }
 
 .footer {
