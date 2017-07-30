@@ -29,6 +29,7 @@
 	float: right;
 	width: 300px;
 	padding-right: 0;
+	text-align: center;
 }
 
 .cnthdr {
@@ -93,3 +94,11 @@
 	background-color: #666666;
 	text-align: center;
 }
+
+.icon {
+	height: 230px;
+	width: 100px;
+}
+
+
+
