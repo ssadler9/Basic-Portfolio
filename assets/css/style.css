@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	align-content: center;
 }
 
 h2 {
@@ -16,9 +17,11 @@ p {
 
 .key{
 	position: relative;
-	left: 786px;
+	left: 755px;
 	top: 82px;
 	margin: 0;
+	padding: 10px;
+	color: #777777;
 }
 
 .header {
@@ -191,6 +194,19 @@ p {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.col {
+	border-right: solid;
+	padding-right: 10px;
+	border-width: 1px;
+	padding-left: 10px;
+}
 
+.col2{
+    padding-left: 10px;
+}
+
+.inbox {
+	padding-left: 10px;
+}
 
 
