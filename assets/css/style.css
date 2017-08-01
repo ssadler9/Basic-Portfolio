@@ -127,6 +127,7 @@ p {
 	height: 185px;
 	width: 180px;
 	padding-bottom: 5px;
+	z-index: -1;
 }
 
 .hangman {
@@ -208,5 +209,53 @@ p {
 .inbox {
 	padding-left: 10px;
 }
+
+.border {
+	margin-left: 165px;
+}
+
+.plholder{
+	z-index: 1;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	width: 180px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	bottom: 175px;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.plholder2 {
+	z-index: 1;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	width: 180px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	bottom: -10px;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.plholder3 {
+	z-index: 1;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	width: 180px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	bottom: -242px;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
 
 
