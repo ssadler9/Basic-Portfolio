@@ -87,6 +87,21 @@ p {
 	border-width: 3px; 
 }
 
+.ptcontainer {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	width: 600px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	font-family: 'Arial', 'Helvetica Nuee', Helvetica, sans-serif;
+	padding-top: 20px;
+	float: left;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 3px;
+}
+
 .wrapper {
 	background-color: #ffffff;
 	border-color: #dddddd;
@@ -118,7 +133,7 @@ p {
 }
 
 .icon {
-	height: 185px;
+	height: 174px;
 	width: 180px;
 	padding-bottom: 5px;
 	z-index: -1;
@@ -213,11 +228,11 @@ p {
 	background-color: #4aaaa5;
 	border-color: #cccccc;
 	width: 180px;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	color: white;
 	padding: 5px;
-	bottom: 264px;
+	bottom: 58px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -227,11 +242,11 @@ p {
 	background-color: #4aaaa5;
 	border-color: #cccccc;
 	width: 180px;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	color: white;
 	padding: 5px;
-	bottom: 74px;
+	bottom: 61px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -241,11 +256,11 @@ p {
 	background-color: #4aaaa5;
 	border-color: #cccccc;
 	width: 180px;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	color: white;
 	padding: 5px;
-	bottom: -132px;
+	bottom: 45px;
 	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
