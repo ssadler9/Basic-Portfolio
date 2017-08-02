@@ -87,6 +87,12 @@ p {
 	border-width: 3px; 
 }
 
+.flex-p1 {
+	float: left;
+	display: -webkit-flex;
+	display: flex;
+}
+
 .ptcontainer {
 	background-color: #ffffff;
 	border-color: #dddddd;
@@ -184,8 +190,9 @@ p {
 }
 
 .sam {
-    margin-left: 20px;
+    margin-left: 5px;
     float: left;
+    margin-right: 10px;
 
 }
 
